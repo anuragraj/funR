@@ -1,3 +1,8 @@
+#Program: Generate Attractors using Rcpp
+#Author: Anurag Raj
+#Date: Jan 2022
+#Adapted from https://www.williamrchase.com/post/strange-attractors-12-months-of-art-february
+
 ######################################################################
 # Load in libraries
 ######################################################################
@@ -70,3 +75,4 @@ plot <- ggplot(df) +
   opt
 #save plot
 ggsave("attractors.png", plot, height = 6, width = 6, units = 'in', dpi = 600)
+
